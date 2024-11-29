@@ -1,0 +1,3 @@
+helm package statera
+cd ..
+helm repo index statera-helm/ --url https://github.com/Real-Artisan/statera-helm/
