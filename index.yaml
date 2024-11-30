@@ -3,9 +3,9 @@ entries:
   statera:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-29T18:44:02.336707-06:00"
+    created: "2024-11-29T18:53:22.542015-06:00"
     description: A tool to optimize Kubernetes resource allocation
-    digest: a9724bc02c34d3ba95e22143303aa84e44abb657c69baf9424c3dfec5d6e50a9
+    digest: 2208fbe7b1b53efec48bd2adc0f9062052148359455966d664b84d21cb3a458a
     name: statera
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-29T18:44:02.336468-06:00"
+    created: "2024-11-29T18:53:22.541768-06:00"
     description: A tool to optimize Kubernetes resource allocation
     digest: 44e23e049cec4757957e9104721bab0a8e747fd5500ace1943915592d49086f6
     name: statera
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://github.com/Real-Artisan/statera-helm/statera-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-29T18:44:02.335594-06:00"
+generated: "2024-11-29T18:53:22.541129-06:00"
