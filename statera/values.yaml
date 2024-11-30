@@ -1,6 +1,6 @@
 image:
   repository: realartisan/statera
-  tag: v1.0.0
+  tag: v1.0.1
   pullPolicy: IfNotPresent
 
 resources:
@@ -14,3 +14,21 @@ resources:
 serviceAccount:
   create: true
   name: statera
+
+cronjob:
+  enabled: true
+  schedule: "*/5 * * * *"  # Every 5 minutes
+  successfulJobsHistoryLimit: 1
+  failedJobsHistoryLimit: 1
+  resources:
+    limits:
+      cpu: "500m"
+      memory: "128Mi"
+    requests:
+      cpu: "200m"
+      memory: "64Mi"
+
+daemonset:
+  enabled: false
+
+
